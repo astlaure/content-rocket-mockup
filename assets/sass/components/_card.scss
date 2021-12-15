@@ -1,0 +1,7 @@
+@use '../abstracts/colors' as *;
+
+.card {
+  border: thin solid $color-accent;
+  padding: 8rem 4rem;
+  border-radius: 5px;
+}

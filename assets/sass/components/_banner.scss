@@ -1,0 +1,38 @@
+.banner {
+  height: calc(100vh - 6rem);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  &.home {
+    background-image: url('/images/banner001.jpg');
+    background-position: bottom;
+
+    > div {
+      padding: 0 5rem;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 2;
+      font-weight: 800;
+      padding-left: 3rem;
+    }
+
+    p {
+      color: white;
+      font-size: 3rem;
+      font-style: italic;
+      line-height: 1.5;
+
+      &:last-of-type {
+        padding-left: 3rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  height: 6rem;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+
+  &.absolute {
+    position: fixed;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+
+    &.nav-right {
+      margin-left: auto;
+    }
+
+    .nav-item {
+      &.nav-brand {
+        height: 100%;
+      }
+
+      .nav-link {
+        padding: 1rem 0.5rem;
+        margin: 0 0.5rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+      }
+
+      .nav-logo {
+        height: 100%;
+      }
+    }
+  }
+}

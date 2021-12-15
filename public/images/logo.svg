@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <path d="M10.9,48.7C14.9,44.7 15.3,43.7 17.8,46.2C20.3,48.7 19.3,49 15.3,53.1C12.3,56.1 8.5,55.5 8.5,55.5C8.5,55.5 7.9,51.7 10.9,48.7" style="fill:rgb(255,157,39);fill-rule:nonzero;"/>
+        <path d="M18.5,52.8C20.1,48.6 20.6,48.1 18.3,46.8C16,45.5 16,46.4 14.5,50.6C13.3,53.7 14.7,56.5 14.7,56.5C14.7,56.5 17.4,56 18.5,52.8" style="fill:rgb(255,157,39);fill-rule:nonzero;"/>
+    </g>
+    <path d="M16.2,48.9C17.1,46.6 17.1,46.1 18.3,46.8C19.6,47.5 19.3,47.8 18.4,50.1C17.8,51.8 16.3,52.2 16.3,52.2C16.3,52.2 15.6,50.7 16.2,48.9" style="fill:rgb(253,245,22);fill-rule:nonzero;"/>
+    <path d="M17.1,45.7C15.8,43.4 15.3,43.9 11.1,45.5C8,46.7 7.4,49.3 7.4,49.3C7.4,49.3 10.2,50.7 13.3,49.5C17.5,47.9 18.4,47.9 17.1,45.7" style="fill:rgb(255,157,39);fill-rule:nonzero;"/>
+    <g>
+        <path d="M15,47.8C17.3,46.9 17.8,46.9 17.1,45.7C16.4,44.4 16.1,44.7 13.8,45.6C12.1,46.2 11.7,47.7 11.7,47.7C11.7,47.7 13.3,48.4 15,47.8" style="fill:rgb(253,245,22);fill-rule:nonzero;"/>
+        <path d="M13.9,47.6C16.1,45.4 16.3,44.8 17.7,46.2C19.1,47.6 18.5,47.8 16.3,50C14.6,51.7 12.5,51.3 12.5,51.3C12.5,51.3 12.3,49.3 13.9,47.6" style="fill:rgb(253,245,22);fill-rule:nonzero;"/>
+    </g>
+    <path d="M18.5,38C12.3,27.6 2,31.9 2,31.9C2,31.9 16.7,17.2 26.6,27.1L18.5,38Z" style="fill:rgb(64,53,176);fill-rule:nonzero;"/>
+    <path d="M23.3,30.3L26.5,27.1C16.7,17.2 2,31.9 2,31.9C2,31.9 14.9,22.7 23.3,30.3" style="fill:rgb(56,47,157);fill-rule:nonzero;"/>
+    <path d="M26,45.5C36.4,51.7 32.1,62 32.1,62C32.1,62 46.8,47.3 36.9,37.4L26,45.5Z" style="fill:rgb(64,53,176);fill-rule:nonzero;"/>
+    <path d="M33.7,40.7L36.9,37.5C46.8,47.4 32.1,62.1 32.1,62.1C32.1,62.1 41.3,49.1 33.7,40.7" style="fill:rgb(56,47,157);fill-rule:nonzero;"/>
+    <path d="M48.8,30.9C37.1,42.5 24.2,48.8 19.7,44.3C15.2,39.8 21.5,26.9 33.1,15.2C46.7,1.6 61.8,2.2 61.8,2.2C61.8,2.2 62.3,17.3 48.8,30.9" style="fill:rgb(197,208,216);fill-rule:nonzero;"/>
+    <path d="M45.8,27.6C34.2,39.2 22.6,46.8 19.9,44.1C17.2,41.4 24.8,29.8 36.4,18.2C50,4.6 62,2 62,2C62,2 59.4,14 45.8,27.6Z" style="fill:rgb(218,227,234);fill-rule:nonzero;"/>
+    <path d="M24.3,47.5C23.8,48 23,48 22.5,47.5L16.5,41.5C16,41 16,40.1 16.5,39.6L18.3,37.8L26.1,45.6L24.3,47.5" style="fill:rgb(115,52,152);fill-rule:nonzero;"/>
+    <path d="M22.6,45.7C22.1,46.2 21.5,46.4 21.2,46.1L17.8,42.7C17.5,42.4 17.7,41.8 18.2,41.3L20,39.5L24.4,43.9L22.6,45.7" style="fill:rgb(130,59,171);fill-rule:nonzero;"/>
+    <path d="M20.9,48.2C20.6,48.5 19.9,48.5 19.6,48.2L15.7,44.3C15.4,44 15.5,43.4 15.8,43.1L17,41.9L22.1,47L20.9,48.2" style="fill:rgb(62,67,71);fill-rule:nonzero;"/>
+    <path d="M20.1,47.4C19.8,47.7 19.2,47.8 19,47.6L16.3,44.9C16.1,44.7 16.2,44.2 16.6,43.9L17.8,42.7L21.3,46.2L20.1,47.4" style="fill:rgb(98,114,122);fill-rule:nonzero;"/>
+    <path d="M61.8,2.2C61.8,2.2 56.4,2 49.1,4.8L59.2,14.9C62,7.6 61.8,2.2 61.8,2.2" style="fill:rgb(115,52,152);fill-rule:nonzero;"/>
+    <path d="M61.8,2.2C61.8,2.2 57.5,3.1 51,6.8L57.2,13C60.9,6.5 61.8,2.2 61.8,2.2" style="fill:rgb(130,59,171);fill-rule:nonzero;"/>
+    <circle cx="43.5" cy="20.5" r="5" style="fill:rgb(237,244,249);"/>
+    <circle cx="43.5" cy="20.5" r="3.3" style="fill:rgb(64,53,176);"/>
+    <circle cx="33.5" cy="30.5" r="5" style="fill:rgb(237,244,249);"/>
+    <circle cx="33.5" cy="30.5" r="3.3" style="fill:rgb(64,53,176);"/>
+    <g>
+        <path d="M48.9,6.9C48.6,7.2 48,7.2 47.7,6.9C47.4,6.6 47.4,6 47.7,5.7C48,5.4 48.6,5.4 48.9,5.7C49.2,6 49.2,6.6 48.9,6.9" style="fill:white;fill-rule:nonzero;"/>
+        <circle cx="50.6" cy="8.6" r="0.8" style="fill:white;"/>
+        <circle cx="53" cy="11" r="0.8" style="fill:white;"/>
+        <circle cx="55.3" cy="13.4" r="0.8" style="fill:white;"/>
+        <circle cx="57.7" cy="15.7" r="0.8" style="fill:white;"/>
+    </g>
+</svg>

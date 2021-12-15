@@ -1,0 +1,71 @@
+@use '../abstracts/colors' as *;
+
+.footer {
+  background-color: $color-black;
+  padding: 4rem 0;
+
+  .contacts {
+    text-align: center;
+
+    h3 {
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+
+      &::after {
+        content: "";
+        border-bottom: 2px solid $color-primary;
+        width: 75%;
+        display: block;
+        margin-top: 0.5rem;
+      }
+    }
+
+    ul {
+      color: $color-white;
+      line-height: 2rem;
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .socials {
+    text-align: center;
+
+    h3 {
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+
+      &::after {
+        content: "";
+        border-bottom: 2px solid $color-primary;
+        width: 75%;
+        display: block;
+        margin-top: 0.5rem;
+      }
+    }
+
+    ul a {
+      color: $color-white;
+      line-height: 2;
+    }
+  }
+
+  .copyright {
+    color: $color-white;
+    text-align: center;
+    margin-top: 2rem;
+    font-style: italic;
+  }
+}

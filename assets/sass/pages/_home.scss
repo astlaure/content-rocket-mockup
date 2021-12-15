@@ -1,0 +1,202 @@
+@use '../abstracts/colors' as *;
+
+#homepage {
+  .plugin-section {
+    padding: 8rem 0;
+
+    .title {
+      text-align: center;
+      margin-bottom: 8rem;
+      text-transform: uppercase;
+      font-weight: 800;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+
+      &::after {
+        content: "";
+        border-bottom: 2px solid $color-primary;
+        width: 75%;
+        display: block;
+        margin-top: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .subtext {
+      margin-top: 4rem;
+      font-style: italic;
+      font-size: 1.25rem;
+
+      span {
+        color: $color-accent;
+        font-weight: 600;
+      }
+    }
+
+    .col {
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+
+    .card h4 {
+      color: $color-accent;
+      border-bottom: 2px solid $color-accent;
+      padding-bottom: 0.75rem;
+    }
+
+    .feature-list {
+      line-height: 2;
+      margin-top: 4rem;
+    }
+  }
+
+  .theme-section {
+    background-color: $color-black;
+    padding: 8rem 0;
+
+    .title {
+      padding-left: 3rem;
+      margin-bottom: 8rem;
+      text-transform: uppercase;
+      font-weight: 800;
+      width: fit-content;
+
+      &::after {
+        content: "";
+        border-bottom: 2px solid $color-primary;
+        width: 75%;
+        display: block;
+        margin-top: 0.5rem;
+      }
+    }
+
+    .feature-list {
+      color: $color-white;
+      line-height: 2.5;
+      margin-top: 4rem;
+      list-style: circle;
+      padding-left: 4rem;
+    }
+
+    .side-image {
+      width: 100%;
+      clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+    }
+
+  }
+
+  .gutenberg-section {
+    padding: 8rem 0;
+
+    .title {
+      text-align: center;
+      margin-bottom: 4rem;
+      text-transform: uppercase;
+      font-weight: 800;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+
+      &::after {
+        content: "";
+        border-bottom: 2px solid $color-primary;
+        width: 75%;
+        display: block;
+        margin-top: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .subtext {
+      margin-bottom: 4rem;
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 2;
+      font-size: 1.25rem;
+    }
+
+    .grid img {
+      width: 100%;
+    }
+
+    .grid-element {
+      border: 1px solid #333333;
+      box-sizing: border-box;
+      padding: 1rem;
+      border-radius: 5px;
+
+      p {
+        color: $color-accent;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .testimonials-section {
+    background-color: $color-primary--dark;
+    padding: 8rem 0;
+
+    .title {
+      padding-left: 3rem;
+      margin-bottom: 8rem;
+      text-transform: uppercase;
+      font-weight: 800;
+      width: fit-content;
+      color: $color-white;
+
+      &::after {
+        content: "";
+        border-bottom: 2px solid $color-white;
+        width: 75%;
+        display: block;
+        margin-top: 0.5rem;
+      }
+    }
+
+    .signature {
+      margin-top: 1.5rem;
+      font-weight: 500;
+      font-style: italic;
+      color: $color-accent;
+    }
+
+    .testimonial {
+      background-color: $color-white;
+      padding: 4rem 2rem;
+      border-radius: 5px;
+      line-height: 1.5;
+      text-align: justify;
+      position: relative;
+
+      &:before, &:after {
+        top: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+      }
+
+      &:before {
+        border-color: transparent;
+    border-top-color: $color-white;
+        border-width: 30px;
+        margin-left: -30px;
+      }
+
+      &:after {
+        border-color: transparent;
+        border-top-color: $color-white;
+        border-width: 24px;
+        margin-left: -24px;
+      }
+    }
+  }
+}

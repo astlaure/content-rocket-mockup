@@ -1,0 +1,21 @@
+@use '../abstracts/mixins' as *;
+
+.grid {
+  display: grid;
+
+  &.gap-1 {
+    gap: 1rem;
+  }
+
+  &.col-lg-3 {
+    @include screen-lg() {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  &.col-lg-4 {
+    @include screen-lg() {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}

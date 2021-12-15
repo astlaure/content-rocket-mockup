@@ -1,0 +1,26 @@
+@use '../abstracts/mixins' as *;
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    &.md-4 {
+      @include screen-md() {
+        width: calc(100% / 12 * 4);
+      }
+    }
+
+    &.md-6 {
+      @include screen-md() {
+        width: calc(100% / 12 * 6);
+      }
+    }
+
+    &.lg-6 {
+      @include screen-lg() {
+        width: calc(100% / 12 * 6);
+      }
+    }
+  }
+}
